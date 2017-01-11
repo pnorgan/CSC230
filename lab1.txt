@@ -1,0 +1,27 @@
+Paul Norgan
+V00 830 393
+
+CSC 230
+Lab 1
+
+Exercises
+
+	1.	5 bits were used in the table referenced because there are 24 different values shown. 5 bits
+		can represent up to 32 different values. Since there are more than 16 values, 4 bits cannot be
+		used for the table.
+
+	2.	6 bits can represent 2^6 or 64 different values.
+
+	3.	7 bits can represent 128 different values. Since 6 bits can only represent 64 different values,
+		7 is the minimum number of bits required to represent the number of students in CSC 230.
+
+	6.				+---------------+---------------+---------------+---------------+
+					| 	4 bits		|	8 bits		|	12 bits		|	16 bits		|
+					|				|				|				|				|
+					+-------+-------+-------+-------+-------+-------+---------------+
+					| min 	| max 	| min 	| max 	| min 	| max 	| min   | max 	|
+		+-----------+-------+-------+-------+-------+-------+-------+---------------+
+		| Unsigned	| 0		| 15	| 0		| 225	| 0		| 4096	| 0		| 65536 |
+		+-----------+-------+-------+-------+-------+-------+-------+---------------+
+		| 2's comp	| -8	| 7		| -128	| 127	| -2048	| 2047	| -32768| 32767	|
+		+-----------+-------+-------+-------+-------+-------+-------+---------------+
